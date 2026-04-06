@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Locations - Psychotherapy of Litchfield
-permalink: /locations/
+title: Location - Psychotherapy of Litchfield
+permalink: /location/
 ---
 # Locations
 
