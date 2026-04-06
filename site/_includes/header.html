@@ -18,10 +18,10 @@
                             <a class="nav-link {% if page.url == '/about/' %}active{% endif %}" href="{{ '/about/' | relative_url }}">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ '/#services' | relative_url }}">Services</a>
+                            <a class="nav-link {% if page.url == '/services/' %}active{% endif %}" href="{{ '/services/' | relative_url }}">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ '/#location' | relative_url }}">Location</a>
+                            <a class="nav-link {% if page.url == '/location/' %}active{% endif %}" href="{{ '/location/' | relative_url }}">Location</a>
                         </li>
                     </ul>
                 </nav>
