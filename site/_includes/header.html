@@ -1,0 +1,35 @@
+<header class="site-header">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-4">
+                <h1 class="header-title">Psychotherapy and Counseling in Litchfield, CT</h1>
+                <p class="header-subtitle">
+                    Litchfield, CT and telehealth &nbsp;&bull;&nbsp;
+                    <a href="{{ '/#contact' | relative_url }}"><i class="bi bi-envelope"></i> Contact</a>
+                </p>
+            </div>
+            <div class="col-lg-4 text-center">
+                <nav class="main-nav">
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item">
+                            <a class="nav-link {% if page.url == '/' %}active{% endif %}" href="{{ '/' | relative_url }}">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link {% if page.url == '/about/' %}active{% endif %}" href="{{ '/about/' | relative_url }}">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ '/#services' | relative_url }}">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ '/#location' | relative_url }}">Location</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-lg-4 text-end header-buttons">
+                <a href="#" class="btn btn-portal me-2">Client Portal</a>
+                <a href="#" class="btn btn-appointment">Request appointment</a>
+            </div>
+        </div>
+    </div>
+</header>
