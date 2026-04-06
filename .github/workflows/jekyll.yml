@@ -31,13 +31,15 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.3' # Not needed with a .ruby-version file
+          ruby-version: '3.1' # GitHub Pages gem compatibility
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
           working-directory: site
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Build with Jekyll
-        run: bundle exec jekyll build
+        run: |
+          bundle install
+          bundle exec jekyll build
         working-directory: site
         env:
           JEKYLL_ENV: production
