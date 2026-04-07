@@ -183,7 +183,7 @@ title: Home - Psychotherapy of Litchfield
                     <h5>Main Office</h5>
                     <p>10 Cobble Court</p>
                     <p>Litchfield, CT 06759-3538</p>
-                    <p class="mt-3"><a href="https://maps.google.com" target="_blank">Get Directions</a></p>
+                    <p class="mt-3"><a href="https://www.google.com/maps/dir/?api=1&destination=10%20Cobble%20Court%20Litchfield%20CT%2006759-3538" target="_blank">Get Directions</a></p>
                 </div>
             </div>
         </div>
