@@ -35,50 +35,8 @@
     </div>
 </footer>
 
-<!-- Bootstrap JS -->
+<!-- simple practice appointments -->
+{% include simple-practice-appointment.html %}
+
+<!-- bootstrap js -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
-<script>
-    // Smooth scrolling for navigation links
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-            const href = this.getAttribute('href');
-            if (href.startsWith('#')) {
-                e.preventDefault();
-                const target = document.querySelector(href);
-                if (target) {
-                    target.scrollIntoView({
-                        behavior: 'smooth',
-                        block: 'start'
-                    });
-                }
-            }
-        });
-    });
-
-    // Update active nav link on scroll (only on home page where sections exist)
-    if (window.location.pathname === '/' || window.location.pathname === '/index.html') {
-        window.addEventListener('scroll', function() {
-            const sections = document.querySelectorAll('section[id]');
-            const navLinks = document.querySelectorAll('.main-nav .nav-link');
-
-            let current = '';
-            sections.forEach(section => {
-                const sectionTop = section.offsetTop;
-                if (scrollY >= sectionTop - 100) {
-                    current = section.getAttribute('id');
-                }
-            });
-
-            navLinks.forEach(link => {
-                const href = link.getAttribute('href');
-                if (href.includes('#')) {
-                    link.classList.remove('active');
-                    if (href.endsWith('#' + current)) {
-                        link.classList.add('active');
-                    }
-                }
-            });
-        });
-    }
-</script>
