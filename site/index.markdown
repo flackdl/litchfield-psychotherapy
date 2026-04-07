@@ -10,8 +10,9 @@ title: Home - Psychotherapy of Litchfield
             <h2 class="hero-quote">"Problems cannot be solved in the same mind that created them" - Einstein</h2>
             <p class="hero-tagline">Taking the first step is always the hardest but choosing yourself and moving toward a healthier mindset is the reward.</p>
             <div class="hero-buttons">
-                <a href="#" class="btn btn-portal-hero">Client Portal</a>
-                <a href="#" class="btn btn-appointment-hero">Request appointment</a>
+                <a href="https://psychotherapyoflitchfield.clientsecure.me/sign-in" class="btn btn-portal-hero">Client Portal</a>
+                <!-- simple practice appointment button -->
+                {% include simple-practice-appointment-button.html %}
             </div>
         </div>
     </div>
@@ -64,7 +65,7 @@ title: Home - Psychotherapy of Litchfield
             <span class="logo-text">Psychotherapy<br>of Litchfield</span>
         </div>
         <p class="practice-name">Psychotherapy of Litchfield</p>
-        <p class="practice-type"><a href="#">Licensed Therapists</a></p>
+        <p class="practice-type">Licensed Therapists</p>
     </div>
 </section>
 
@@ -74,7 +75,6 @@ title: Home - Psychotherapy of Litchfield
         <div class="text-center">
             <p class="section-label">SERVICES</p>
         </div>
-
         <div class="text-center mb-5">
             <span class="service-tag">Adjustment Disorder</span>
             <span class="service-tag">ADD/ADHD</span>
@@ -193,7 +193,8 @@ title: Home - Psychotherapy of Litchfield
 <!-- CTA Section -->
 <section class="cta-section">
     <div class="container text-center">
-        <a href="#" class="btn btn-portal me-3">Client Portal</a>
-        <a href="#" class="btn btn-appointment">Request appointment</a>
+        <a href="https://psychotherapyoflitchfield.clientsecure.me/sign-in" class="btn btn-portal me-3">Client Portal</a>
+        <!-- simple practice appointment button -->
+        {% include simple-practice-appointment-button.html %}
     </div>
 </section>
