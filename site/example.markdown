@@ -9,13 +9,11 @@ Here's a [text link](https://duckduckgo.com).
 
 > Here is a blockquote
 
----
-
 with a separator in between.
 
 ## Header 2
 
-Here is *bold text*.
+Here is _italicized text_.
 
 ### Header 3
 
@@ -23,4 +21,4 @@ Here is `highlighted text`.
 
 #### Header 4
 
-Here is **italicized text**.
+Here is **bold text**.
