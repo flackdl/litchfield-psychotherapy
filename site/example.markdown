@@ -6,9 +6,7 @@ permalink: /example/
 
 # Example Page
 
-Here's a [text link](https://duckduckgo.com).
-
-> Here is a blockquote
+Here's a [text link](https://duckduckgo.com)
 
 ---
 
